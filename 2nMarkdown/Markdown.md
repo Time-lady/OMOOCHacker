@@ -40,17 +40,18 @@
 ## 图片  
 ![pic name](pic link)  
 
-图片居中        
+图片居中 (这里好像并没有居中哇TT)       
 <figure>  
 <img src = "http://www.sixqq.com/uploads/allimg/120606/1-120606092Q7.gif">  
 </figure>  
 
 
 
-		这里加了斜杠图片就不显示了，不加的话后边文字全变成居中了  
+		这里加了斜杠图片就不显示了，不加的话后边文字全变成居中了    
+
 
 <center>
-![CSDN图标](http://www.sixqq.com/uploads/allimg/120606/1-120606092Q7.gif") 
+![小熊图标](http://www.sixqq.com/uploads/allimg/120606/1-120606092Q7.gif") 
 </center>   
 
 
