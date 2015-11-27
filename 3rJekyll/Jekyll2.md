@@ -42,6 +42,7 @@ Favicon就是出现在地址栏URL旁边的图形.网站图标
 [扩展-10款插件](http://www.open-open.com/news/view/1c78bc4)  
 <http://www.ijquery.cn/?p=160>  
 
+## 问题
 * 大坑之安装ruby rubygems 安装jekyll等  图灵社区的一本书有具体指导 
 <http://www.ituring.com.cn/article/66338>   
 - 问题1（已解决） ：安装jekyll失败
