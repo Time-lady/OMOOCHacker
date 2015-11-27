@@ -52,7 +52,7 @@ Favicon就是出现在地址栏URL旁边的图形.网站图标
        Deprecation: You appear to have pagination turned on, but you haven't included the `jekyll-paginate` gem. Ensure you have `gems: [jekyll-paginate]` in your configuration file.  
 ```  
 
-## 背景
+#### 背景
 - 系统: mac 酋长石
 - 版本: ruby 2.2.3p173 
 所有的代码在这里  
