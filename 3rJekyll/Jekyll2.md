@@ -43,11 +43,17 @@ Favicon就是出现在地址栏URL旁边的图形.网站图标
 <http://www.ijquery.cn/?p=160>  
 
 * 大坑之安装ruby rubygems 安装jekyll等  图灵社区的一本书有具体指导 
-<http://www.ituring.com.cn/article/66338>  
-改了gem sources之后（我复制[淘宝镜像网站](https://ruby.taobao.org) 的更换gem sources命令 --add https://ruby.taobao.org/命令可以 但是用--a它就报错）就安装jekyll成功了。但是我运行jekyll serve的时候又报出   
-
+<http://www.ituring.com.cn/article/66338>   
+- 问题1（已解决） ：安装jekyll失败
+- 尝试：改了gem sources之后（我复制[淘宝镜像网站](https://ruby.taobao.org) 的更换gem sources命令 --add https://ruby.taobao.org/命令可以 但是用--a它就报错）就安装jekyll成功了。  
+- 问题2：（未解决）我运行jekyll serve的时候又报错   
+```
        Deprecation: You appear to have pagination turned on, but you haven't included the `jekyll-paginate` gem. Ensure you have `gems: [jekyll-paginate]` in your configuration file.  
+```  
 
+## 背景
+- 系统: mac 酋长石
+- 版本: ruby 2.2.3p173 
 所有的代码在这里  
 ```
 wangxiaoyudeMacBook-Pro:Time-lady.github.io YoYo$ jekyll serve
@@ -78,3 +84,4 @@ Configuration file: /Users/YoYo/Time-lady.github.io/_config.yml
   Server running... press ctrl-c to stop.
 ^CwangxiaoyudeMacBook-Pro:Time-lady.github.io YoYo$ 
 ```  
+- 判断：我的配置文档里好像缺了个东西，还在研究中......
