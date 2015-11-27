@@ -84,4 +84,8 @@ Configuration file: /Users/YoYo/Time-lady.github.io/_config.yml
   Server running... press ctrl-c to stop.
 ^CwangxiaoyudeMacBook-Pro:Time-lady.github.io YoYo$ 
 ```  
-- 判断：我的配置文档里好像缺了个东西，还在研究中......
+- 判断：我的配置文档里好像缺了个东西，还在研究中......虽然报了个disable 但是他貌似又通过别的途径自动enable了，
+```
+Incremental build: disabled. Enable with --incremental  
+```  
+- 所以本地4000控制可以看到，没有问题。
